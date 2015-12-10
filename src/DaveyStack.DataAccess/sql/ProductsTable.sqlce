@@ -1,0 +1,7 @@
+-- Script Date: 12/9/2015 3:23 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+CREATE TABLE [Products] (
+  [ID] INTEGER NOT NULL
+, [Name] nvarchar(100) NOT NULL
+, [Description] nvarchar(400) NOT NULL
+, CONSTRAINT [PK_Products] PRIMARY KEY ([ID])
+);

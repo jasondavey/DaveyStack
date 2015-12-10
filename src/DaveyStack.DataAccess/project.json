@@ -1,10 +1,11 @@
-{
+﻿{
   "version": "1.0.0-*",
-  "description": "DaveyStack.BusinessLogic Class Library",
+  "description": "DaveyStack.DataAccess Class Library",
   "authors": [ "YE44727" ],
   "tags": [ "" ],
   "projectUrl": "",
   "licenseUrl": "",
+
   "frameworks": {
     "net451": { },
     "dotnet5.4": {
@@ -16,8 +17,5 @@
         "System.Threading": "4.0.11-beta-23516"
       }
     }
-  },
-  "dependencies": {
-    "System.Data.SQLite": "1.0.98.1"
   }
 }

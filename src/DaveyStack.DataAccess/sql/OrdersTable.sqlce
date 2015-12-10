@@ -1,0 +1,7 @@
+-- Script Date: 12/9/2015 1:56 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+CREATE TABLE [Orders] (
+  [ID] INTEGER NOT NULL
+  ,[VENDOR_ID] NOT NULL
+  ,[DATETIME_CREATED] NOT NULL
+, CONSTRAINT [PK_Orders] PRIMARY KEY ([ID])
+);

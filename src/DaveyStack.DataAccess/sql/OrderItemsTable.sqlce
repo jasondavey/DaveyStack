@@ -1,0 +1,8 @@
+-- Script Date: 12/9/2015 3:18 PM  - ErikEJ.SqlCeScripting version 3.5.2.56
+CREATE TABLE [OrderItems] (
+  [ID] INTEGER NOT NULL
+, [ORDER_ID] int NOT NULL
+, [PRODUCT_ID] int NOT NULL
+, [COUNT] tinyint NOT NULL
+, CONSTRAINT [PK_OrderItems] PRIMARY KEY ([ID])
+);
